@@ -20,7 +20,8 @@ class OptCap:
 
     def __str__(self):
         name = OptCap.__name__
-        return f"{name}(tag={self.tag.name}, id={self.instr_id}, x={self.x})"
+        tag, instr_id, x = self.tag.name, self.instr_id, self.x
+        return f"{name}(tag='{tag}', instr_id='{instr_id}', x='{x}')"
 
     def __repr__(self):
         return self.__str__()
