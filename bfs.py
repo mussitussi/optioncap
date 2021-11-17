@@ -6,8 +6,8 @@ graph = {
     "E": ["F"],
     "F": []}
 
-visited = {}  # List to keep track of visited nodes.
-queue = []  # Initialize a queue
+visited = []  # List to keep track of visited nodes.
+queue = []    # Initialize a queue
 
 
 def bfs(visited, graph, start_node):
